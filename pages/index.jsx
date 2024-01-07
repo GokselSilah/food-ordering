@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/layout/Header'
 import Campaigns from '../components/ui/Campaigns'
 import Home from "./home"
+import Input from '../components/form/Input'
 
 
 export default function Index() {
@@ -15,8 +16,6 @@ export default function Index() {
       </Head>
       <Header />
       <Home />
-
-
     </div>
   )
 }

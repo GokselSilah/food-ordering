@@ -4,6 +4,7 @@ import Header from "../../components/layout/Header";
 import Carousel from "../../components/ui/Carousel";
 import MenuWrapper from "../../components/products/MenuWrapper";
 import About from "../../components/ui/About";
+import Reservation from "../../components/ui/Reservation";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <Campaigns />
       <MenuWrapper/>
       <About/>
+      <Reservation/>
     </div>
   );
 };
